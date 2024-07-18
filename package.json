@@ -1,0 +1,18 @@
+{
+  "name": "3d-google-map",
+  "version": "1.0.0",
+  "description": "Test 3D google map alpha",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Quynh Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

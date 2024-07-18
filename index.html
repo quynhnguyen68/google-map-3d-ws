@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photorealistic 3D Maps in Maps JavaScript Places API Integration Demo</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>3D google map</h1>
+        <label for="api-key-input">API Key</label>
+        <input id ="api-key-input" type="text" placeholder="Enter API KEY">
+        <button class="btn-submit-key">Submit API</button>
+
+        <div class="pac-card" id="pac-card">
+            <div id="title">Navigate to a place</div>
+            <div id="pac-container">
+                <input class="pac-input" type="text" id="pac-input" name="pac-input" placeholder="Enter a location..." />
+            </div>
+        </div>
+        <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
